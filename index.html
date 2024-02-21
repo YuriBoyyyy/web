@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Hotdog.css">
+        <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Electrolize&display=swap" rel="stylesheet">
+        <title></title>
+    </head>
+    <body>
+
+        <!--Navigation-->
+
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="pictures/Gg.png"></a>
+                <div class="navbar" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="Category.html"><i class="fas fa-list"></i>Category</a></li>
+                    <li><a href="Wishlist.html"><i class="fas fa-clipboard-list"></i>Wishlist</a></li>
+                    <li><a href="Contacts.html"><i class="fas fa-phone"></i>Contacts</a></li>
+                    <li><a href="Developer.html"><i class="fas fa-poo"></i>Developer</a></li>
+                    </ul>
+                    <button class="btnLogin-popup"><a href="Login.html">Login</a></button>
+                    </label>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        <!--Greetings-->
+
+            <div class="text-box">
+                <h1>Gaming Geek</h1>
+                <p>"Immerse yourself in a world of endless gaming
+                    possibilities! Explore and elevate your gaming
+                    experience <br> with our diverse collection of
+                    online games, where excitement knows no bounds.
+                    <br>Your virtual adventure begins here!"</p>
+                        <div class="search">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search...">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                        </div>
+            </section>
+            
+        <!--New Release Section-->
+
+        <section class="release-section">
+            <h1>New Release</h1>
+            <div class="release-row">
+                <div class="release-col">
+                    <img src="pictures/Item-23.png">
+                    <div class="layer">
+                        <h3>Cat Quest</h3>
+                    </div>
+                </div>
+                <div class="release-col">
+                    <img src="pictures/Item-22.png">
+                    <div class="layer">
+                        <h3>Block Buster Billy</h3>
+                    </div>
+                </div><div class="release-col">
+                    <img src="pictures/Item-26.png">
+                    <div class="layer">
+                        <h3>Otok</h3>
+                    </div>
+                </div>
+                <div class="release-col">
+                    <img src="pictures/Item-21.png">
+                    <div class="layer">
+                    <h3>Scary Bingo</h3>
+                </div>
+                </div>
+                <div class="release-col">
+                    <img src="pictures/Item-24.png">
+                    <div class="layer">
+                    <h3>Melvor Idle</h3>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--Free Game-->
+
+        <section class="free-section">
+            <h1>Free Games</h1>
+            <div class="free-row">
+                <div class="free-col">
+                    <img src="pictures/Item-25.png">
+                    <div class="layer-2">
+                        <h3>Valorant</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <section class="footah">
+            <h4>Thank you for visiting my Website!</h4>
+            <div class="icons">
+                <p>Follow me on:</p>
+                <a href="https://www.facebook.com/earl.saavedra.98?mibextid=hIlR13"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/yuriboiiio"><i class="fab fa-instagram"></i></a>
+                <i class="fas fa-envelope-open"></i>
+            </div>
+            <p>Ginawa ng may <i class="fas fa-heart"></i> by Earl HAHAHA</p>
+            <br>
+            <br>
+            <p>All rights reserved 2023</p>
+        </section>
+
+         <!------Java for toggle------>
+         <script>var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-300px";
+            }
+        </script>
+        <script src="Handog.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
