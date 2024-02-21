@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "name": "Honkai Impact",
+        "price": 25,
+        "image": "pictures/Honkai.png"
+    },
+    {
+        "id": 2,
+        "name": "Anime Vs Evil",
+        "price": 5,
+        "image": "pictures/Item-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Kraken Academy",
+        "price": 90,
+        "image": "pictures/Item-3.png"
+    },
+    {
+        "id": 4,
+        "name": "GrandChase",
+        "price": 30,
+        "image": "pictures/Item-4.png"
+    },
+    {
+        "id": 5,
+        "name": "Class of '09",
+        "price": 20,
+        "image": "pictures/Item-5.png"
+    },
+    {
+        "id": 6,
+        "name": "Tower of Fantasy",
+        "price": 100,
+        "image": "pictures/Item-6.png"
+    },
+    {
+        "id": 7,
+        "name": "Remi Lore",
+        "price": 60,
+        "image": "pictures/Item-7.png"
+    },
+    {
+        "id": 8,
+        "name": "Polygon Survival",
+        "price": 50,
+        "image": "pictures/Item-8.png"
+    },
+    {
+        "id": 9,
+        "name": "Love Money",
+        "price": 200,
+        "image": "pictures/Item-9.png"
+    },
+    {
+        "id": 10,
+        "name": "The Gap",
+        "price": 20,
+        "image": "pictures/Item-10.png"
+    },
+    {
+        "id": 11,
+        "name": "INFINIFACTORY",
+        "price": 10,
+        "image": "pictures/Item-11.png"
+    },
+    {
+        "id": 12,
+        "name": "Red Glare",
+        "price": 5,
+        "image": "pictures/Item-12.png"
+    },
+    {
+        "id": 13,
+        "name": "Lil' Guardsman",
+        "price": 90,
+        "image": "pictures/Item-13.png"
+    },
+    {
+        "id": 14,
+        "name": "John Mambo",
+        "price": 30,
+        "image": "pictures/Item-14.png"
+    },
+    {
+        "id": 15,
+        "name": "Howl",
+        "price": 20,
+        "image": "pictures/Item-15.png"
+    },
+    {
+        "id": 16,
+        "name": "Ninja Nato 2",
+        "price": 100,
+        "image": "pictures/Item-16.png"
+    },
+    {
+        "id": 17,
+        "name": "Contraption Maker",
+        "price": 60,
+        "image": "pictures/Item-17.png"
+    },
+    {
+        "id": 18,
+        "name": "Geometric Sniper",
+        "price": 50,
+        "image": "pictures/Item-18.png"
+    },
+    {
+        "id": 19,
+        "name": "Turnip Boy",
+        "price": 200,
+        "image": "pictures/Item-19.png"
+    },
+    {
+        "id": 20,
+        "name": "Aircraft Carrier",
+        "price": 20,
+        "image": "pictures/Item-20.png"
+    },
+    {
+        "id": 21,
+        "name": "Scary Bingo",
+        "price": 10,
+        "image": "pictures/Item-21.png"
+    },
+    {
+        "id": 22,
+        "name": "Block Buster Billy",
+        "price": 5,
+        "image": "pictures/Item-22.png"
+    },
+    {
+        "id": 23,
+        "name": "Cat Quest",
+        "price": 90,
+        "image": "pictures/Item-23.png"
+    },
+    {
+        "id": 24,
+        "name": "Melvor Idle",
+        "price": 30,
+        "image": "pictures/Item-24.png"
+    },
+    {
+        "id": 25,
+        "name": "Valorant",
+        "price": 20,
+        "image": "pictures/Item-25.png"
+    },
+    {
+        "id": 26,
+        "name": "Otok",
+        "price": 100,
+        "image": "pictures/Item-26.png"
+    }
+]
+

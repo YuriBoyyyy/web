@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Hotdog.css">
+        <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Electrolize&display=swap" rel="stylesheet">
+        <title></title>
+    </head>
+    <body>
+
+        <!--Navigation-->
+        <section class="header">
+            <nav>
+                <a href="Hakdog.html"><img src="pictures/Gg.png"></a>
+                <div class="navbar" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                    <li><a href="Hakdog.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="Category.html"><i class="fas fa-list"></i>Category</a></li>
+                    <li><a href="Wishlist.html"><i class="fas fa-clipboard-list"></i>Wishlist</a></li>
+                    <li><a href="Contacts.html"><i class="fas fa-phone"></i>Contacts</a></li>
+                    <li><a href="Developer.html"><i class="fas fa-poo"></i>Developer</a></li>
+                    </ul>
+                    <button class="btnLogin-popup"><a href="Login.html">Login</a></button>
+                    </label>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+        
+        <!--LoginButton-->
+        <div class="wrapper">   
+                
+                <div class="form-box login">
+                    <h2 style="color: aliceblue;">Login</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Rememeber Me</label>
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <div class="login-register">
+                            <p>Don't have an account?<a href="Registration.html" class="register-link">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+
+        </div>
+    <!--
+                <div class="form-box register">
+                    <h2 style="color: aliceblue;">Registration</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" required>
+                            <label>User Name</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">I agree to the terms & condition</label>
+                        </div>
+                        <button type="submit" class="btn">Register</button>
+                        <div class="login-register">
+                            <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        -->
+
+
+        <!--Footer-->
+        <section class="footah">
+            <h4>Thank you for visiting my Website!</h4>
+            <div class="icons">
+                <p>Follow me on:</p>
+                <a href="https://www.facebook.com/earl.saavedra.98?mibextid=hIlR13"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/yuriboiiio"><i class="fab fa-instagram"></i></a>
+                <i class="fas fa-envelope-open"></i>
+            </div>
+            <p>Ginawa ng may <i class="fas fa-heart"></i> by Earl HAHAHA</p>
+            <br>
+            <br>
+            <p>All rights reserved 2023</p>
+        </section>
+
+         <!------Java for toggle------>
+         <script>var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-300px";
+            }
+        </script>
+        <script src="js/login.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

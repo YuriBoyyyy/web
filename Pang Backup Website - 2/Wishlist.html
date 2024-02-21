@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Hotdog.css">
+        <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Electrolize&display=swap" rel="stylesheet">
+        <title></title>
+    </head>
+    <body>
+
+        <!--Navigation-->
+
+        <section class="header">
+            <nav>
+                <a href="Hakdog.html"><img src="pictures/Gg.png"></a>
+                <div class="navbar" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                    <li><a href="Hakdog.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="Category.html"><i class="fas fa-list"></i>Category</a></li>
+                    <li><a href="Wishlist.html"><i class="fas fa-clipboard-list"></i>Wishlist</a></li>
+                    <li><a href="Contacts.html"><i class="fas fa-phone"></i>Contacts</a></li>
+                    <li><a href="Developer.html"><i class="fas fa-poo"></i>Developer</a></li>
+                    </ul>
+                    <button class="btnLogin-popup"><a href="Login.html">Login</a></button>
+                    </label>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+        
+        <!--Wishlist-->
+        <div class="container">
+            <div class="checkoutLayout">
+                <div class="returnCart">
+                    <button class="backpri"><a href="Category.html">Keep Looking<i class="fa-solid fa-arrow-left-long"></i></a></button>
+                    <h1 style="color: #fff;">List App in Wishlist</h1>
+                    <div class="list">
+                        <div class="item">
+                            <img src="pictures/Honkai.png">
+                            <div class="info">
+                                <div class="name" style="color: #fff;">Honkain Impact</div>
+                                <div class="price" style="color: #fff;">PhP 25.00/1 product</div>
+                            </div>
+                            <div class="quantity" style="color: #fff;">1</div>
+                            <div class="returnPrice" style="color: #fff;">PhP 25.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1>Install</h1>
+                    <div class="form">
+                        <div class="group">
+                            <label for="">Full Name</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="group">
+                            <label for="">Phone Number</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="group">
+                            <label for="">Address</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="group">
+                            <label for="">Country</label>
+                            <input type="text" name="" id="">
+                            <select name="" id="">
+                                <option value="">Choose...</option>
+                                <option value="Philippines">Philippines.</option>
+                            </select>
+                        </div>
+                        <div class="group">
+                            <label for="">City</label>
+                            <input type="text" name="" id="">
+                            <select name="" id="">
+                                <option value="">Choose...</option>
+                                <option value="Philippines">Dyan lang sa Tabi</option>
+                                <option value="Philippines">Secret</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="return">
+                        <div class="row">
+                            <div>Total Quantity</div>
+                            <div class="totalQuantity">60</div>
+                        </div>
+                        <div class="row">
+                            <div>Total Price</div>
+                            <div class="totalPrice">PhP 60.00</div>
+                        </div>
+                    </div>
+                    <button class="buttonCheckout">
+                        Install Now!
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <section class="footah">
+            <h4>Thank you for visiting my Website!</h4>
+            <div class="icons">
+                <p>Follow me on:</p>
+                <a href="https://www.facebook.com/earl.saavedra.98?mibextid=hIlR13"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/yuriboiiio"><i class="fab fa-instagram"></i></a>
+                <i class="fas fa-envelope-open"></i>
+            </div>
+            <p>Ginawa ng may <i class="fas fa-heart"></i> by Earl HAHAHA</p>
+            <br>
+            <br>
+            <p>All rights reserved 2023</p>
+        </section>
+
+         <!------Java for toggle------>
+         <script>var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-300px";
+            }
+        </script>
+        <script src="js/checkout.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
